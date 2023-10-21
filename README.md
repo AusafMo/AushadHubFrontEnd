@@ -3,7 +3,7 @@
 **This Project is divided across two repositories, This repo deals with the Frontend App**
 <br>
 - For Backend App see <a href = "https://github.com/AusafMo/AushadhHubCloudModel/tree/main"> Backend Repo </a>
-- For Training Notebook see <a href = "https://github.com/AusafMo/NoteBook-Medicinal-Herb-Model-ResNet"> Training Notebook </a>
+- For Model Training see <a href = "https://github.com/AusafMo/NoteBook-Medicinal-Herb-Model-ResNet"> Training Notebook </a>
 <br>
 ## What is this? :
 - The Project aims to solve the problem of identification of medicinal herbs.
