@@ -4,7 +4,6 @@
 <br>
 - For Backend App see <a href = "https://github.com/AusafMo/AushadhHubCloudModel/tree/main"> Backend Repo </a>
 - For Model Training see <a href = "https://github.com/AusafMo/NoteBook-Medicinal-Herb-Model-ResNet"> Training Notebook </a>
-<br>
 ## What is this? :
 - The Project aims to solve the problem of identification of medicinal herbs.
 - The Machine Learning Model uses ResNet, with a validation accuracy of 98% and testing accuracy of 96%.
