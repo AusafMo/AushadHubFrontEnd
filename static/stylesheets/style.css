@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 @media (max-width: 768px) {
+    .logoname{
+        display: none;
+    }
     #imageRes {
         max-height: 200px;
         padding: 2.4rem;
@@ -9,6 +12,17 @@
         flex-direction: column; 
         margin: 0 1.5rem;
     }
+    .custom-button {
+        width: 155px !important;
+    }
+    .browse-btn {
+        width: 110px !important;
+        margin: 0 1.5rem;
+    }
+    .uploadsection{
+        margin: 25px 4rem !important;
+    }
+
 }
 
 *{
@@ -16,36 +30,53 @@
 }
 
 body{
+    color: #1d1d1f;
     margin: 0;
     font-family: "Poppins", sans-serif;
-    background-color: #d8f1ce;
+    background-image: url(/static/img/squares.svg);
+    background-color: rgba(173, 216, 230, 0.419);
     transition: background 0.2s linear;
 }
 
 header {
-    background: #fff;
     width: 100%;
-    /* color: #fff; */
     padding: 1px 0;
+    line-height: 1.2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+header h1 {
+    font-size: auto;
 }
 
 .navbar {
+    background: rgba(217, 237, 246, 0.82);
+    /* background: linear-gradient(0deg, rgba(217,237,246,1) 0%, rgba(4,99,181,1) 100%); */
+    /* -webkit-backdrop-filter: blur(5px); */
+    backdrop-filter: blur(4px);
+    position: fixed;
+    width: 75vw;
+    top: 2%;
     display: flex;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.25);
     align-items: center;
     padding-left: 0.8rem;
     padding-right: 0.8rem;
-    margin: 0 auto;
+    margin: 1rem 2rem 0 2rem;
     flex-direction: row;
     justify-content: space-between;
+    border-radius: 20px;
 }
+
 .textandlogo {
-    /* border: 1px solid black; */
     display: flex;
     flex-direction: row;
     align-items: center;
     margin: 0;
     padding: 0.2rem;
+    font-size: larger;
 }
 .navbar .logo img {
     height: 80px;
@@ -63,43 +94,76 @@ header {
     transform: scale(1.05);
 }
 
+.aboutSection {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: 1rem;
+}
+
+.about {
+    /* display: flex;
+    align-items: center; */
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #1d1d1f;
+}
+
 .tool-section {
     display: flex;
     flex-direction: column;
 }
 
 .tool-section h1 {
-    padding-top: 2rem;
+    /* margin-top: 9rem; */
+    margin: 9.5rem auto 1.5rem auto;
+    font-family: Tt interfaces,sans-serif;
+    font-size: 4.8rem;
+    letter-spacing: -4.8px;
+    padding-top: 1.6rem;
     text-align: center;
-    margin: 0;
 }
 
 .slogan {
-    padding: 0 1rem 0 1rem;
+    /* margin-top: 10vh; */
+    padding: 0 1.5rem 0 1.5rem;
     text-align: center;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
     font-size: 18px;
     font-weight:500;
+    line-height: 1.5;
+    font-size: 1.3rem;
 }
 
 .uploadsection {
     padding: 2rem 0;
-    margin: 20px 5rem;
-    background-color: #EDF9EE;
+    margin: 25px 8rem;
+    /* width: 60%; */
+    background-color: #F9F5F6;
     border-radius: 10px;
     min-height: 350px;
     max-height: fit-content;
-/*     max-width: 84rem; */
-    border: 3px dashed #d2d1d6;
+    /* max-width: 84rem; */
+    border: 3px dashed #ccc;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    /* height: 433px; */
+    /* height: 433px; */ 
     transition: .1s ease-in-out;
 }
+
+/* border color while drag and drop */
+.drag-over {
+    border: 3px dashed #8f8f8f;
+    border-radius: 20px;
+}
+
+#upsectionIndex:hover {
+    background-color: #F8E8EE;
+}  
 
 .afterImage {
     width: 100%;
@@ -128,10 +192,12 @@ header {
     padding: 5px 0px;
     margin: 1.5rem 0px 0px;
     box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 1);
+    /* background: linear-gradient(90deg, rgb(71, 71, 71) 0%, rgb(23, 23, 23) 101.42%); */
     background: linear-gradient(90deg, rgb(71, 71, 71) 0%, rgb(23, 23, 23) 101.42%);
     border-radius: 5px;
     display: flex;
     width: 200px;
+    min-width: 150px;
     height: 38px;
     justify-content: space-around;
     border: none;
@@ -216,12 +282,14 @@ img#svgImage {
     max-height: fit-content;
     display: flex;
     flex-direction: column;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     max-width: 850px;
 }
 
 .slogann{
+    margin: 0 1rem;
     margin: 0 1rem;
     padding: 1rem 2rem;
 }
