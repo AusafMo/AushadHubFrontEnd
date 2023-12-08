@@ -1,5 +1,7 @@
 # AushadHubFrontEnd
 🙋‍♂️
+(❁´◡`❁) **It takes some time (1~2 mins) to load the site**, why ? well GCP drops all the resources after 15 mins of no incoming traffic. And, I am quite sure you're probably the first one visiting the site in weeks  ( well, technically i do stare into this void of a site every morning, don't ask me why ) .
+<br>
 **This Project is divided across two repositories, This repo deals with the Frontend App**
 <br>
 - For Backend App see <a href = "https://github.com/AusafMo/AushadhHubCloudModel/tree/main"> Backend Repo </a>
@@ -21,6 +23,6 @@
 
 ## In Action :
     
-
+This is the old Site design, but you get the Idea.
 https://github.com/AusafMo/AushadHubFrontEnd/assets/75237046/201f013c-e50a-47a8-9818-041428d211cb
 
