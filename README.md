@@ -1,7 +1,12 @@
 # AushadHubFrontEnd
 🙋‍♂️
-(❁´◡`❁) **It takes some time (1~2 mins) to load the site**, why ? well render drops all the resources after 15 mins of no incoming traffic. And, I am quite sure you're probably the first one visiting the site in weeks  ( well, technically i do stare into this void of a site every morning, don't ask me why ) .
+(❁´◡`❁) **It takes a hot minute (1~2 mins) to load the site**, why ? well, render drops all the resources after 15 mins of no incoming traffic. And, I am quite sure you're probably the first one visiting the site in weeks  ( well, technically i do stare into this void of a site every morning, don't ask me why ) .
 <br>
+
+The Front-End is entirely designed and implemented by Abhinav, check him out [@abhinav0git]( https://github.com/abhinav0git)
+
+<br>
+
 **This Project is divided across two repositories, This repo deals with the Frontend App**
 <br>
 - For Backend App see <a href = "https://github.com/AusafMo/AushadhHubCloudModel/tree/main"> Backend Repo </a>
