@@ -7,7 +7,7 @@ The Front-End is entirely designed and implemented by Abhinav, check him out [@a
 
 <br>
 
-**This Project is divided across two repositories, This repo deals with the Frontend App**
+**This Project is divided across three repositories, This repo deals with the Frontend App**
 <br>
 - For Backend App see <a href = "https://github.com/AusafMo/AushadhHubCloudModel/tree/main"> Backend Repo </a>
 - For Model Training see <a href = "https://github.com/AusafMo/NoteBook-Medicinal-Herb-Model-ResNet"> Training Notebook </a>
