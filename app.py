@@ -32,7 +32,7 @@ def upload_file():
         img_path = 'static/upload/' + file.filename
         file.save(img_path)
 
-        response = requests.post("https://aushadhub-prcsxigeha-el.a.run.app/upload", files={'file': open(img_path, 'rb')})
+        response = requests.post("https://aushadhub-a6c3347ypa-em.a.run.app/upload", files={'file': open(img_path, 'rb')})
         responsedata = response.json()
 
         img_path = '../' + img_path
