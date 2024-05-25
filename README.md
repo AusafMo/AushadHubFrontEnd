@@ -27,7 +27,7 @@ The Front-End is entirely designed and implemented by Abhinav, check him out [@a
 
 ## In Action :
     
-This is the old Site design, but you get the Idea.
+Old Site design, but you get the Idea.
 <br>
 
 
